@@ -1,0 +1,37 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?j33c8m');
+  src:  url('../fonts/icomoon.eot?j33c8m#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?j33c8m') format('truetype'),
+    url('../fonts/icomoon.woff?j33c8m') format('woff'),
+    url('../fonts/icomoon.svg?j33c8m#icomoon') format('svg'),
+    url('../fonts/icomoon.woff2?j33c8m') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-eo4-black:before {
+  content: "\e900";
+  padding: 5px 5px 5px 5px;
+}
+
+
+/* contact form hack*/
+iframe{
+  display: none;
+}

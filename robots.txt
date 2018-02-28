@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: http://eo4.eu/sitemap.xml
