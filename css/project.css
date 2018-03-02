@@ -1,3 +1,4 @@
+
 @font-face {
   font-family: 'icomoon';
   src:  url('../fonts/icomoon.eot?j33c8m');
@@ -30,8 +31,12 @@
   padding: 5px 5px 5px 5px;
 }
 
+ul {
+  font-weight: bold;
+}
 
-/* contact form hack*/
+/* contact form hack
 iframe{
   display: none;
 }
+*/
